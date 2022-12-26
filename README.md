@@ -50,14 +50,6 @@ $ helm show values dagster/dagster > values.yaml
 $ helm upgrade --install dagster dagster/dagster -f values.yaml
 ```
 
-### You can access Dagit by running the following commands
-
-```shell
-$ helm repo add dagster https://dagster-io.github.io/helm
-$ helm show values dagster/dagster > values.yaml
-$ helm upgrade --install dagster dagster/dagster -f values.yaml
-```
-
 ## Tutorial
 
 For a introductory guide on using Dagster on Helm, [check out our documentation](https://docs.dagster.io/deployment/guides/kubernetes/deploying-with-helm).
